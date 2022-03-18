@@ -2,6 +2,7 @@ public class Dependency {
     private final SubDependency subDependency;
 
     public Dependency(SubDependency subDependency) {
+        super();
         this.subDependency = subDependency;
     }
 
